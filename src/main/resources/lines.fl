@@ -1,0 +1,28 @@
+{
+  "geo": {
+    "map": "china",
+    "show": false,
+    "center": [
+      ${centerX},${centerY}
+    ],
+    "boundingCoords": [
+      [
+          ${minX},
+          ${maxY}
+      ],
+      [
+          ${maxX},
+          ${minY}
+      ]
+    ]
+  },
+  "series": [
+    {
+      "type": "lines",
+      "coordinateSystem": "geo",
+      "polyline": true,
+      data": ${coords},
+      "silent": true
+    }
+  ]
+}
