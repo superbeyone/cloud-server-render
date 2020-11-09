@@ -77,7 +77,6 @@ public class HttpUtil {
         // 释放资源
         EntityUtils.consume(entity);
         response.close();
-        //System.out.println("responseEntity = " + responseEntity);
 
         JSONObject responseJson = JSON.parseObject(responseEntity);
         String code = responseJson.getString("code");

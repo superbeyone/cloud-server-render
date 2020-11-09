@@ -24,7 +24,6 @@ public class FileUtil {
         if (!file.getParentFile().exists()) {
             file.getParentFile().mkdirs();
         }
-        System.out.println("file = " + file);
         try (OutputStream out = new FileOutputStream(file)) {
             // 解密
             byte[] b = decoder.decodeBuffer(base64);

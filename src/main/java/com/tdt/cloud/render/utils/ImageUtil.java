@@ -68,10 +68,4 @@ public class ImageUtil {
             }
         }
     }
-
-    public static void main(String[] args) {
-        markImageByText("superbeyone", "F:\\echarts\\bar1567600917165oNeL.png", "F:\\echarts\\new\\bar1567600917135oNeL.png", 45, new Color(200, 10, 1), "png");
     }
-
-
-}
