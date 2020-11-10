@@ -7,7 +7,7 @@
 
 1. phantomjs-2.1.1-windows.zip下载地址：
 
-    https://phantomjs.org/download.html) 
+    https://phantomjs.org/download.html
 
     API地址：http://phantomjs.org/api/
 
